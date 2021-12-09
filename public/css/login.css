@@ -224,7 +224,7 @@ header {background-color: #EAC926;
   }
   
   /* Desktop */
-   @media (min-width: 769px){
+   @media (min-width: 700px){
   
   .img-productos{box-shadow: 0px 0px 10px rgb(100, 100, 100);} 
   .infoProductos { box-shadow: 0px 0px 10px rgb(100, 100, 100);}
