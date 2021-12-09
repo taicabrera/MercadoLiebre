@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "Nodemon scr/app.js js, mjs, json, html, css"
+    "test": "Nodemon scr/app.js js, mjs, json, html, css",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
