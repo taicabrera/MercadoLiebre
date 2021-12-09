@@ -1,0 +1,247 @@
+/*header*/
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+header {background-color: #EAC926;
+        height: 230px;
+}
+
+.img-logo {
+    width: 300px;
+    height: 100px;
+}
+
+.input {
+    
+        position: absolute;
+        right: 170px;
+        top: 45px;
+        width: 350px;
+        height: 50px;
+       border-radius: 8px;
+       border: double 2px lightgrey;
+       font-size: 18px;
+        
+    
+    
+}
+
+
+
+.fa-search {
+    background-color: white;
+    border: 1px black solid;
+    padding: 1px;
+}
+
+.compra-cuotas{ 
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.barra-nav{
+    
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.navbar {
+    margin-bottom: 35px;
+}
+
+.icono-burger {
+
+    
+    background-color: #03264c;
+    color: white;
+    display: block;
+    max-width: 48px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    
+    
+}
+
+/* Mobile */
+@media (max-width: 360px){
+    .navbar1 {
+        display: none;
+    }
+
+    .navbar2 {
+        display: none;
+    }
+    
+
+    
+    .nombreProducto {
+        display: none;
+    }
+}
+
+
+/* Tablets */
+@media (min-width: 361px) {
+
+    .img-productos{ box-shadow: 0px 0px 10px rgb(100, 100, 100);}
+  
+    .infoProductos { box-shadow: 0px 0px 10px rgb(100, 100, 100);}
+  
+    .icono-burger{
+      display:none;
+      background-color: #EAC926;
+          }
+  
+    .sections1{
+         display:flex;
+         justify-content: space-around;
+         gap: 10px;  
+         margin-bottom: 20px;
+            }
+  
+      .productos3 .productos4 {
+          display: none;
+      }
+  
+      .sections2 {
+          display:none        }
+  
+      .navbar1{
+          display: flex;
+          position:relative;
+          top: 30px;
+      }
+
+      .navbar2{
+          display: flex;
+          flex-direction: row-reverse;
+      }
+
+      .barra-nav{
+          margin-right: 20px;
+          margin-left: 15px;
+      }
+      
+  }
+  
+  /* Desktop */
+   @media (min-width: 769px){
+  
+  .img-productos{box-shadow: 0px 0px 10px rgb(100, 100, 100);} 
+  .infoProductos { box-shadow: 0px 0px 10px rgb(100, 100, 100);}
+  .icono-burger {
+      display: none ;
+      background-color: #EAC926;
+  }
+  
+  .primerTitulo {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  
+  
+  .sections1{
+      display:flex;
+      justify-content: space-around;
+      gap: 10px;  
+      margin-bottom: 20px;
+    }
+  
+  .sections2 {
+      display:none
+  }
+  
+    .iconoProductos {
+      color: green;
+      margin-bottom: 15px;
+      display: block;
+      font-size: 16px;
+      padding: 5px;
+      width: 30px;
+      height: 30px;
+      border: 1px solid #39b54a;
+      background-color: #FFF;
+      border-radius: 50%;
+      position: absolute;
+      display: none;
+      
+  }
+
+  .navbar1{
+    display: flex;
+    position:relative;
+    top: 35px;
+}
+
+.navbar2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.barra-nav{
+    margin-right: 20px;
+    margin-left: 15px;
+}
+  
+  } 
+
+
+  /*FORMULARIO REGISTER*/
+
+ .form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: lightgrey;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+ .none {
+     display: none;
+ }
+
+ .inputForm{
+    display:flex;
+    justify-content: center;
+    width: 80%;
+    text-align:left;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid rgba(100, 100, 100, 0.1);
+    background-color:white;
+    font-weight: bold;
+ }
+
+ .fontForm {
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .fieldsetPrincipal{
+     border: 0;
+ }
+ .fieldset {
+    margin-bottom: 25px;
+}
+.botones{
+    
+    
+    color:black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px grey double;
+    font-weight: bold;
+}

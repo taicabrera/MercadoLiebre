@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="css/register.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        
+       
+        <img class="img-logo" src="./images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
+        
+        <input class="input" type="text" placeholder="Buscar Productos" > 
+
+        
+        
+        <p class="compra-cuotas"><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</p>
+        
+    <div class="navbar">    
+       <ul type= "none" class="navbar1"> 
+        
+            <li> <a class="barra-nav" href="#">Ofertas</a> </li>
+            <li> <a class="barra-nav" href="#">Tiendas Oficiales</a> </li>
+            <li> <a class="barra-nav" href="#">Vender</a> </li>
+            <li> <a class="barra-nav" href="#">Ayuda</a> </li>
+       </ul> 
+        
+        <ul type= "none" class="navbar2">
+            <li> <a class="barra-nav" href="/register">Creá tu cuenta <i class="fas fa-address-card"></i></a> </li>
+            <li> <a class="barra-nav" href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a> </li>
+            <li> <a class="barra-nav"href="#">Mis compras <i class="fas fa-shopping-basket"></i></a> </li>
+        </ul>
+    </div>
+        
+        <div class="icono-burger">
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        </div>  
+        
+        
+    </header>
+ 
+    <form class="form" action="/" method="post">
+        <fieldset class="fieldsetPrincipal" >
+
+            <legend class="none">Nombre completo</legend>
+            <Label class="none" for="nombre">Nombre y apellido</Label>
+            <input class="inputForm"  name="nombre" id="nombre" type="text" placeholder="Nombre y apellido" required>
+
+        
+
+            <legend class="none">Nombre de usuario</legend>
+            <label class="none" for="nombreusuario">Nombre de usuario</label>
+            <input class="inputForm" name="nombreusuario" id="nombreusuario" type="text" placeholder="Nombre de usuario" required>
+        
+        
+
+            <legend class="none" class="none">Email</legend>
+            <label class="none"for="email">Email</label>
+            <input class="inputForm" name="email" id="email" type="email" placeholder="Email" required>
+
+        
+            <fieldset class="fieldset">
+            <legend >Fecha de nacimiento</legend>
+            <label  class="none" for="fecha">Fecha de nacimiento</label>
+            <input class="inputForm" name="fecha" id="fecha" type="date" required>
+            </fieldset>
+       
+
+            <legend class="none">Domicilio</legend>
+            <label for="domicilio"></label>
+            <input class="inputForm" name="domicilio" id="domicilio" type="text" placeholder="Domicilio" required>
+
+        
+            <fieldset class="fieldset">
+            <legend >Perfil del usuario</legend>
+
+            <label for="perfilcomprador">Comprador</label>
+            <input  name="perfilusuario" id="perfilcomprador" type="radio" value="Comprador" required>
+
+            <label for="perfilvendedor">Vendedor</label>
+            <input  name="perfilusuario" id="perfilvendedor" type="radio" value="Vendedor" required>
+        
+        </fieldset>
+
+            <fieldset class="fieldset">
+            <legend >Intereses</legend>
+
+            <label for="categoriaElectro">Electro</label>
+            <input type="checkbox" name="categoria" id="categoriaElectro" value="Electro">
+
+            <label for="categoriaModa">Moda</label>
+            <input type="checkbox" name="categoria" id="categoriaModa" value="Moda">
+
+            <label for="categoriaHogar">Hogar</label>
+            <input type="checkbox" name="categoria" id="categoriaHogar" value="Hogar">
+
+            <label for="categoriaJugueteria">Jugueteria</label>
+            <input type="checkbox" name="categoria" id="categoriaJugueteria" value="Jugueteria">
+
+            <label for="categoriaVida">Vida sana</label>
+            <input type="checkbox" name="categoria" id="categoriaVida" value="Vida sana">
+        </fieldset>
+
+        <fieldset class="fieldset">
+            <legend >Foto de usuario</legend>
+            <label  class="none"for="fotoUsuario">Foto de usuario</label>
+            <input  type="file" accept=".jpg, .png" name="fotoUsuario" id="fotoUsuario">
+        </fieldset>
+        
+
+                <Label class="none" for="contraseña">Contraseña</Label>
+                <input class="inputForm" type="password" name="contraseña" id="contraseña" placeholder="Contraseña" required>
+
+
+            <Label class="none" for="confirmarContraseña">Confirmar contraseña</Label>
+            <input class="inputForm" type="password" name="confirmarContraseña" id="confirmarContraseña" placeholder="Confirmar contraseña" required>
+
+    
+
+        <button class="botones" type="submit">Enviar</button>
+
+    
+
+        <button class="botones" type="reset">Borrar</button>
+
+    </fieldset>
+        
+
+
+
+
+    </form>
+
+</body>
+</html>
