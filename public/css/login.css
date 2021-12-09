@@ -173,7 +173,7 @@ header {background-color: #EAC926;
 
 
 /* Tablets */
-/*@media (min-width: 361px) {
+@media (min-width: 361px) {
 
     .img-productos{ box-shadow: 0px 0px 10px rgb(100, 100, 100);}
   
