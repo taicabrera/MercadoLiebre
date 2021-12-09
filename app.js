@@ -3,7 +3,7 @@ const path = require ("path");
 
 const app = express();
 
-app.set("port", process.env.port || 3000)
+app.set("port", process.env.PORT || 3000)
 
 app.listen(app.get("port"), () => console.log("Running port htpp://localhost:" + app.get("port")))
 
